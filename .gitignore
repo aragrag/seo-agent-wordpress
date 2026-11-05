@@ -1,0 +1,12 @@
+# Secrets — never commit (Azure key, WordPress application password)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Generated data (site content, backups of old values, audit reports)
+backups/
+corrections/
+*_rapport.json
